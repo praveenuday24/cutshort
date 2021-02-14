@@ -1,0 +1,83 @@
+body{
+    font-family:cursive;
+}
+.tableUsername{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/*---------Item Selection Section-------------*/
+.itemsType{
+    border: solid 1px #dfdfdf;
+    text-align: center;
+    margin: 0 0 20px;
+    cursor: pointer;
+}
+.itemsValue{
+    padding: 10px;
+}
+.itemsValue.active{
+    color: #fff;
+    background: #000;
+}
+.itemsValue:not(:last-child){
+    border-right:solid 1px #dfdfdf;
+}
+.hideSection{
+    display: none;
+}
+.displaySection{
+    display: flex;
+}
+
+
+/*---------Item Section-------------*/
+.itemSection{
+    margin:15px 0;
+}
+.itemImage{
+    width:130px;
+    height: 165px;
+}
+.itemSection .header h3{
+    font-size: 20px;
+}
+.quantity{
+    margin-top: 70px;
+    cursor: pointer;
+}
+.quantity span{
+    padding: 5px 20px;
+    border: solid 1px #dfdfdf;
+}
+
+/*---------Billing Section-------------*/
+
+.SectionBill{
+    margin-top: 30px;
+    border-bottom: solid 1px #dfdfdf;
+}
+.orderedItemDetails div{
+    font-size:15px;
+    color:grey;
+}
+.billedItemPrice{
+    text-align: right;
+}
+.billingSection{
+    margin:70px 0 15px;
+}
+.orderedItemQuantity{
+    padding: 0;
+}
+.orderedItemValue{
+    text-align: right;
+}
+.orderedItem {
+    margin-bottom: 10px;
+}
+.billedItemValue{
+    text-align: right;
+}
+.payBtn button{
+    width: 100%;
+}

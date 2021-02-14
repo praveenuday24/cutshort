@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Booking</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./index.js"></script>
+    </head>
+    <body>
+        <section class="headerSection">
+            <div class="jumbotron text-center">
+                <h1 class="header">The Great Table</h1>
+                <p></p> 
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 tableDetails">
+                      <h3 class="tableUsername">Table 5 - Mrs.Einsten</h3>
+                      <div class="itemsType row">
+                          <div class="itemsValue active col-sm-4">Drinks</div>
+                          <div class="itemsValue col-sm-4">Food</div>
+                          <div class="itemsValue col-sm-4">Dessert</div>
+                      </div>
+                      <div class="selectionItem">
+                          <select class="col-sm-12">
+                              <option>Wine</option>
+                              <option>Beer</option>
+                              <option>Champagne</option>
+                          </select>
+                      </div>
+                      <div class="itemsSection displaySection hideSection row" id="drinks">
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage" src="./assets/wine.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Beaux Freres</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/wine.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Beaux Freres</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/wine.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Beaux Freres</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/wine.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Beaux Freres</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/wine.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Beaux Freres</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/wine.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Beaux Freres</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                      </div>                      
+                      <div class="itemsSection hideSection row" id="food">
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage" src="./assets/butter.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Butter Chicken</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/butter.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Pasta</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage" src="./assets/butter.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Paneer Masala</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/butter.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Chapathi</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/butter.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Boiled Rice</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/butter.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Chicken Noodles</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                      </div>                      
+                      <div class="itemsSection hideSection row" id="dessert">
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage" src="./assets/dessert.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Strawberry Icecream</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/dessert.jpg"alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Gulab Jamun</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage" src="./assets/dessert.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Rasamilai</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage" src="./assets/dessert.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Jelabi</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage"src="./assets/dessert.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Mangoo moosee</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                        <div class="col-sm-6 itemSection row">
+                            <div class="col-sm-5">
+                                <img class="itemImage" src="./assets/dessert.jpg" alt="wine1"></img>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="header">
+                                    <h3>Ice Cake</h3>
+                                    <p class="price">$7.50</p>
+                                </div>
+                                <div class="quantity">
+                                    <span class="decrease">-</span>
+                                    <span class="value">0</span>
+                                    <span class="increase">+</span>
+                                </div>
+                            </div>          
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-4 pricingSection">
+                      <h3 class="pricingheader col-sm-12">Check</h3>        
+                      <section class="#drinks SectionBill ">
+                          <div class="headerSection row">
+                            <h4 class="billHeader col-sm-6">Drinks</h4>
+                            <p class="billedItemPrice col-sm-6">$25.50</p>
+                          </div>
+                          <div class="orderedItem ">
+                            <div class="orderedItemDetails row">
+                                <div class="orderedItemName col-sm-6 col-6">Domain Serene</div>
+                                <div class="orderedItemQuantity col-sm-3 col-3">$25.50 x 2</div>
+                                <div class="orderedItemValue col-sm-3 col-3">$25.50</div>
+                            </div>
+                            <div class="orderedItemDetails row">
+                                <div class="orderedItemName col-sm-6 col-6">Domain Serene</div>
+                                <div class="orderedItemQuantity col-sm-3 col-3">$25.50 x 2</div>
+                                <div class="orderedItemValue col-sm-3 col-3">$25.50</div>
+                            </div>
+                          </div>                        
+                      </section>
+                      <section class="#food SectionBill ">
+                        <div class="headerSection row">
+                          <h4 class="billHeader col-sm-6">Food</h4>
+                          <p class="billedItemPrice col-sm-6">$25.50</p>
+                        </div>
+                        <div class="orderedItem">
+                          <div class="orderedItemDetails row">
+                              <div class="orderedItemName col-sm-6 col-6">Domain Serene</div>
+                              <div class="orderedItemQuantity col-sm-3 col-3">$25.50 x 2</div>
+                              <div class="orderedItemValue col-sm-3 col-3">$25.50</div>
+                          </div>
+                          <div class="orderedItemDetails row">
+                              <div class="orderedItemName col-sm-6 col-6">Domain Serene</div>
+                              <div class="orderedItemQuantity col-sm-3 col-3">$25.50 x 2</div>
+                              <div class="orderedItemValue col-sm-3 col-3">$25.50</div>
+                          </div>
+                        </div>                        
+                      </section>
+                      <section class="#dessert SectionBill ">
+                        <div class="headerSection row">
+                          <h4 class="billHeader col-sm-6 ">Dessert</h4>
+                          <p class="billedItemPrice col-sm-6">$25.50</p>
+                        </div>
+                        <div class="orderedItem">
+                          <div class="orderedItemDetails row">
+                              <div class="orderedItemName col-sm-6 col-6">Domain Serene</div>
+                              <div class="orderedItemQuantity col-sm-3 col-3">$25.50 x 2</div>
+                              <div class="orderedItemValue col-sm-3 col-3">$25.50</div>
+                          </div>
+                          <div class="orderedItemDetails row">
+                              <div class="orderedItemName col-sm-6 col-6">Domain Serene</div>
+                              <div class="orderedItemQuantity col-sm-3 col-3">$25.50 x 2</div>
+                              <div class="orderedItemValue col-sm-3 col-3">$25.50</div>
+                          </div>
+                        </div>                                         
+                    </section>
+                    <div class="billingSection">
+                        <div class="billingItemDetails row">
+                            <div class="billedItemName col-sm-6">Subtotal</div>
+                            <div class="billedItemValue col-sm-4">$25.50</div>
+                        </div>
+                        <div class="billingItemDetails row">
+                            <div class="billedItemName col-sm-6">Estimated Taxes</div>
+                            <div class="billedItemValue col-sm-4">$25.50</div>
+                        </div>
+                        <div class="billingItemDetails row">
+                            <div class="billedItemName col-sm-6">Discount</div>
+                            <div class="billedItemValue col-sm-4">$25.50</div>
+                        </div>
+                    </div> 
+                    <div class="payBtn">
+                        <button>Pay $85.0</button>
+                    </div>   
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </body>
+
+</html>
